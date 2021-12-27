@@ -31,14 +31,14 @@ body{
 	transition: all 1s ease;
 	padding: 10px;
 	width: 24.9999%;
-	background: #fff;
+	background: #000;
 }
 
 .nav li a{
 	font-size: 16px;
 	font-weight: bold;
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 	letter-spacing: 0.5em;
 }
 
@@ -51,15 +51,15 @@ body{
 }
 
 .nav li:nth-child(-n+4){
-	border-right: 2px solid black;
+	border-right: 2px solid white;
 }
 
 .nav li:active, .nav li:hover {
-    background:  #000;
+    background:  #fff;
 }
  
 .nav li:active a, .nav li:hover a {
-    color: #fff;
+    color: #000;
 }
 
 .form-div{
@@ -173,4 +173,49 @@ footer{
 
 .icon-links{
 	display: block;
+}
+
+.user-img{
+	display: block;
+	margin: 30px auto;
+	width: 100px;
+	height: 100px;
+}
+
+.projects{
+	margin: 0 auto;
+	width: 1270px;
+}
+
+.projects-header{
+	text-align: center;
+	font-size: 35px;
+	color: #fff;
+}
+
+.proj-img{
+	width: 400px;
+}
+
+.cards{
+	border: 5px solid black;
+	margin-right: 20px;
+	width: 400px;
+	transition: transform 1.5s ease;
+}
+
+.cards:hover{
+	transform: scale(1.1);
+}
+
+.proj-name{
+	padding: 0;
+	margin: 0;
+	background: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.projects-list{
+	display: flex;
 }
